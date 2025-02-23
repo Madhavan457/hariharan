@@ -110,7 +110,7 @@
             }
             
             .calendly-inline-widget {
-                height: 500px;
+                height: 400px; /* Reduced height for mobile */
             }
         }
     </style>
@@ -121,13 +121,13 @@
         <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
         <nav>
             <ul id="menu-list">
-                <li><a href="madhan.1.webp" onclick="closeMenu()">Booking</a></li>
+                <li><a href="#booking" onclick="closeMenu()">Booking</a></li>
                 <li><a href="#location" onclick="closeMenu()">Location</a></li>
             </ul>
         </nav>
     </header>
     <section id="booking">
-        <div class="calendly-inline-widget" data-url="https://calendly.com/madhavanselvi234/30min" style="min-width:320px;height:700px;"></div>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/madhavanselvi234/30min" style="min-width:320px;height:600px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     </section>
     <section id="location">
